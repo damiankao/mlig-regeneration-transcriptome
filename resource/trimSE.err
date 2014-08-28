@@ -1,404 +1,4 @@
-TrimmomaticPE: Started with arguments: -threads 1 -phred33 /EBS/mlig_pilot_reg_096h_R1.fastq.gz /EBS/mlig_pilot_reg_096h_R2.fastq.gz /EBS/mlig_pilot_reg_096h_R1.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_reg_096h_R1.fastq.gz.unpaired.trimmed.fastq.gz /EBS/mlig_pilot_reg_096h_R2.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_reg_096h_R2.fastq.gz.unpaired.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Read Pairs: 29616751 Both Surviving: 21704665 (73.29%) Forward Only Surviving: 3690762 (12.46%) Reverse Only Surviving: 805819 (2.72%) Dropped: 3415505 (11.53%)
-TrimmomaticPE: Completed successfully
-TrimmomaticPE: Started with arguments: -threads 1 -phred33 /EBS/mlig_pilot_reg_072h_R1.fastq.gz /EBS/mlig_pilot_reg_072h_R2.fastq.gz /EBS/mlig_pilot_reg_072h_R1.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_reg_072h_R1.fastq.gz.unpaired.trimmed.fastq.gz /EBS/mlig_pilot_reg_072h_R2.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_reg_072h_R2.fastq.gz.unpaired.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Read Pairs: 29753410 Both Surviving: 22063040 (74.15%) Forward Only Surviving: 3882634 (13.05%) Reverse Only Surviving: 795313 (2.67%) Dropped: 3012423 (10.12%)
-TrimmomaticPE: Completed successfully
-TrimmomaticPE: Started with arguments: -threads 1 -phred33 /EBS/mlig_pilot_reg_048h_R1.fastq.gz /EBS/mlig_pilot_reg_048h_R2.fastq.gz /EBS/mlig_pilot_reg_048h_R1.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_reg_048h_R1.fastq.gz.unpaired.trimmed.fastq.gz /EBS/mlig_pilot_reg_048h_R2.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_reg_048h_R2.fastq.gz.unpaired.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Read Pairs: 32577541 Both Surviving: 24904655 (76.45%) Forward Only Surviving: 3962318 (12.16%) Reverse Only Surviving: 784263 (2.41%) Dropped: 2926305 (8.98%)
-TrimmomaticPE: Completed successfully
-TrimmomaticPE: Started with arguments: -threads 1 -phred33 /EBS/mlig_pilot_stage_A1_000h_R1.fastq.gz /EBS/mlig_pilot_stage_A1_000h_R2.fastq.gz /EBS/mlig_pilot_stage_A1_000h_R1.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_stage_A1_000h_R1.fastq.gz.unpaired.trimmed.fastq.gz /EBS/mlig_pilot_stage_A1_000h_R2.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_stage_A1_000h_R2.fastq.gz.unpaired.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Read Pairs: 38227000 Both Surviving: 29713838 (77.73%) Forward Only Surviving: 3429209 (8.97%) Reverse Only Surviving: 1031287 (2.70%) Dropped: 4052666 (10.60%)
-TrimmomaticPE: Completed successfully
-TrimmomaticPE: Started with arguments: -threads 1 -phred33 /EBS/mlig_pilot_reg_012h_R1.fastq.gz /EBS/mlig_pilot_reg_012h_R2.fastq.gz /EBS/mlig_pilot_reg_012h_R1.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_reg_012h_R1.fastq.gz.unpaired.trimmed.fastq.gz /EBS/mlig_pilot_reg_012h_R2.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_reg_012h_R2.fastq.gz.unpaired.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Read Pairs: 18812265 Both Surviving: 15089737 (80.21%) Forward Only Surviving: 2179728 (11.59%) Reverse Only Surviving: 400658 (2.13%) Dropped: 1142142 (6.07%)
-TrimmomaticPE: Completed successfully
-TrimmomaticPE: Started with arguments: -threads 1 -phred33 /EBS/mlig_pilot_stage_H2_000h_R1.fastq.gz /EBS/mlig_pilot_stage_H2_000h_R2.fastq.gz /EBS/mlig_pilot_stage_H2_000h_R1.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_stage_H2_000h_R1.fastq.gz.unpaired.trimmed.fastq.gz /EBS/mlig_pilot_stage_H2_000h_R2.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_stage_H2_000h_R2.fastq.gz.unpaired.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Read Pairs: 21790335 Both Surviving: 16863708 (77.39%) Forward Only Surviving: 2992884 (13.73%) Reverse Only Surviving: 532211 (2.44%) Dropped: 1401532 (6.43%)
-TrimmomaticPE: Completed successfully
-TrimmomaticPE: Started with arguments: -threads 1 -phred33 /EBS/mlig_pilot_reg_024h_R1.fastq.gz /EBS/mlig_pilot_reg_024h_R2.fastq.gz /EBS/mlig_pilot_reg_024h_R1.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_reg_024h_R1.fastq.gz.unpaired.trimmed.fastq.gz /EBS/mlig_pilot_reg_024h_R2.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_reg_024h_R2.fastq.gz.unpaired.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Read Pairs: 22560274 Both Surviving: 17103992 (75.81%) Forward Only Surviving: 3042215 (13.48%) Reverse Only Surviving: 579047 (2.57%) Dropped: 1835020 (8.13%)
-TrimmomaticPE: Completed successfully
-TrimmomaticPE: Started with arguments: -threads 1 -phred33 /EBS/mlig_pilot_stage_H1_000h_R1.fastq.gz /EBS/mlig_pilot_stage_H1_000h_R2.fastq.gz /EBS/mlig_pilot_stage_H1_000h_R1.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_stage_H1_000h_R1.fastq.gz.unpaired.trimmed.fastq.gz /EBS/mlig_pilot_stage_H1_000h_R2.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_stage_H1_000h_R2.fastq.gz.unpaired.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Read Pairs: 29474575 Both Surviving: 23111681 (78.41%) Forward Only Surviving: 3259564 (11.06%) Reverse Only Surviving: 681933 (2.31%) Dropped: 2421397 (8.22%)
-TrimmomaticPE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_012h_3_1.fastq.gz mlig_regen_reg_012h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 12587875 Surviving: 10525965 (83.62%) Dropped: 2061910 (16.38%)
-TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_072h_3_1.fastq.gz mlig_regen_reg_072h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 11835429 Surviving: 10059055 (84.99%) Dropped: 1776374 (15.01%)
-TrimmomaticSE: Completed successfully
-TrimmomaticPE: Started with arguments: -threads 1 -phred33 /EBS/mlig_pilot_stage_A2_000h_R1.fastq.gz /EBS/mlig_pilot_stage_A2_000h_R2.fastq.gz /EBS/mlig_pilot_stage_A2_000h_R1.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_stage_A2_000h_R1.fastq.gz.unpaired.trimmed.fastq.gz /EBS/mlig_pilot_stage_A2_000h_R2.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_stage_A2_000h_R2.fastq.gz.unpaired.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Read Pairs: 22018951 Both Surviving: 18146746 (82.41%) Forward Only Surviving: 1930287 (8.77%) Reverse Only Surviving: 501659 (2.28%) Dropped: 1440259 (6.54%)
-TrimmomaticPE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_072h_2_1.fastq.gz mlig_regen_control_072h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 12143934 Surviving: 10506029 (86.51%) Dropped: 1637905 (13.49%)
-TrimmomaticSE: Completed successfully
-TrimmomaticPE: Started with arguments: -threads 1 -phred33 /EBS/mlig_pilot_stage_H2long_000h_R1.fastq.gz /EBS/mlig_pilot_stage_H2long_000h_R2.fastq.gz /EBS/mlig_pilot_stage_H2long_000h_R1.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_stage_H2long_000h_R1.fastq.gz.unpaired.trimmed.fastq.gz /EBS/mlig_pilot_stage_H2long_000h_R2.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_stage_H2long_000h_R2.fastq.gz.unpaired.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Read Pairs: 21622762 Both Surviving: 17469141 (80.79%) Forward Only Surviving: 1928534 (8.92%) Reverse Only Surviving: 905629 (4.19%) Dropped: 1319458 (6.10%)
-TrimmomaticPE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_072h_3_2.fastq.gz mlig_regen_control_072h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 12297934 Surviving: 10475820 (85.18%) Dropped: 1822114 (14.82%)
-TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_168h_2_1.fastq.gz mlig_regen_reg_168h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 10218947 Surviving: 8759936 (85.72%) Dropped: 1459011 (14.28%)
-TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_120h_1_1.fastq.gz mlig_regen_reg_120h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 15230348 Surviving: 12929429 (84.89%) Dropped: 2300919 (15.11%)
-TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_096h_3_1.fastq.gz mlig_regen_reg_096h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_096h_3_1.fastq.gz mlig_regen_reg_096h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -423,7 +23,132 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 9960604 Surviving: 8351264 (83.84%) Dropped: 1609340 (16.16%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_012h_1_1.fastq.gz mlig_regen_reg_012h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_168h_2_1.fastq.gz mlig_regen_reg_168h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 10218947 Surviving: 8759936 (85.72%) Dropped: 1459011 (14.28%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_072h_3_1.fastq.gz mlig_regen_reg_072h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 11835429 Surviving: 10059055 (84.99%) Dropped: 1776374 (15.01%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_072h_3_2.fastq.gz mlig_regen_control_072h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 12297934 Surviving: 10475820 (85.18%) Dropped: 1822114 (14.82%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_012h_3_1.fastq.gz mlig_regen_reg_012h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 12587875 Surviving: 10525965 (83.62%) Dropped: 2061910 (16.38%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_072h_2_1.fastq.gz mlig_regen_control_072h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 12143934 Surviving: 10506029 (86.51%) Dropped: 1637905 (13.49%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_012h_1_1.fastq.gz mlig_regen_reg_012h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -448,7 +173,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 14201938 Surviving: 12445304 (87.63%) Dropped: 1756634 (12.37%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_168h_1_1.fastq.gz mlig_regen_control_168h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_120h_1_1.fastq.gz mlig_regen_reg_120h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -471,9 +196,9 @@ Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
 Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 13462772 Surviving: 11620969 (86.32%) Dropped: 1841803 (13.68%)
+Input Reads: 15230348 Surviving: 12929429 (84.89%) Dropped: 2300919 (15.11%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_096h_3_2.fastq.gz mlig_regen_reg_096h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_096h_3_2.fastq.gz mlig_regen_reg_096h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -498,7 +223,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 10426718 Surviving: 8825899 (84.65%) Dropped: 1600819 (15.35%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_168h_2_1.fastq.gz mlig_regen_control_168h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_168h_2_1.fastq.gz mlig_regen_control_168h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -523,7 +248,32 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 11049923 Surviving: 9636628 (87.21%) Dropped: 1413295 (12.79%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_096h_3_2.fastq.gz mlig_regen_control_096h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_168h_1_1.fastq.gz mlig_regen_control_168h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 13462772 Surviving: 11620969 (86.32%) Dropped: 1841803 (13.68%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_096h_3_2.fastq.gz mlig_regen_control_096h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -548,57 +298,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 12521325 Surviving: 10748856 (85.84%) Dropped: 1772469 (14.16%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_000h_1_1.fastq.gz mlig_regen_reg_000h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 13852139 Surviving: 12289207 (88.72%) Dropped: 1562932 (11.28%)
-TrimmomaticSE: Completed successfully
-TrimmomaticPE: Started with arguments: -threads 1 -phred33 /EBS/mlig_pilot_reg_000h_R1.fastq.gz /EBS/mlig_pilot_reg_000h_R2.fastq.gz /EBS/mlig_pilot_reg_000h_R1.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_reg_000h_R1.fastq.gz.unpaired.trimmed.fastq.gz /EBS/mlig_pilot_reg_000h_R2.fastq.gz.paired.trimmed.fastq.gz /EBS/mlig_pilot_reg_000h_R2.fastq.gz.unpaired.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Read Pairs: 24377500 Both Surviving: 17928652 (73.55%) Forward Only Surviving: 3307582 (13.57%) Reverse Only Surviving: 669008 (2.74%) Dropped: 2472258 (10.14%)
-TrimmomaticPE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_096h_2_1.fastq.gz mlig_regen_control_096h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_096h_2_1.fastq.gz mlig_regen_control_096h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -623,7 +323,32 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 12298255 Surviving: 10660445 (86.68%) Dropped: 1637810 (13.32%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_012h_2_1.fastq.gz mlig_regen_reg_012h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_000h_1_1.fastq.gz mlig_regen_reg_000h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 13852139 Surviving: 12289207 (88.72%) Dropped: 1562932 (11.28%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_012h_2_1.fastq.gz mlig_regen_reg_012h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -648,32 +373,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 12166860 Surviving: 10496959 (86.28%) Dropped: 1669901 (13.72%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_012h_2_1.fastq.gz mlig_regen_control_012h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 13229850 Surviving: 11574032 (87.48%) Dropped: 1655818 (12.52%)
-TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_012h_1_1.fastq.gz mlig_regen_control_012h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_012h_1_1.fastq.gz mlig_regen_control_012h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -698,7 +398,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 18389857 Surviving: 15871255 (86.30%) Dropped: 2518602 (13.70%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_048h_3_1.fastq.gz mlig_regen_control_048h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_048h_3_1.fastq.gz mlig_regen_control_048h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -723,7 +423,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 10303710 Surviving: 8712734 (84.56%) Dropped: 1590976 (15.44%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_012h_3_2.fastq.gz mlig_regen_reg_012h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_012h_2_1.fastq.gz mlig_regen_control_012h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -746,9 +446,9 @@ Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
 Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 13068719 Surviving: 11037336 (84.46%) Dropped: 2031383 (15.54%)
+Input Reads: 13229850 Surviving: 11574032 (87.48%) Dropped: 1655818 (12.52%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_024h_1_1.fastq.gz mlig_regen_reg_024h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_024h_1_1.fastq.gz mlig_regen_reg_024h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -773,7 +473,32 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 10647698 Surviving: 9271917 (87.08%) Dropped: 1375781 (12.92%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_024h_3_2.fastq.gz mlig_regen_control_024h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_012h_3_2.fastq.gz mlig_regen_reg_012h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 13068719 Surviving: 11037336 (84.46%) Dropped: 2031383 (15.54%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_024h_3_2.fastq.gz mlig_regen_control_024h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -798,7 +523,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 12194441 Surviving: 10233799 (83.92%) Dropped: 1960642 (16.08%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_120h_3_1.fastq.gz mlig_regen_reg_120h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_120h_3_1.fastq.gz mlig_regen_reg_120h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -823,32 +548,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 10778145 Surviving: 9184162 (85.21%) Dropped: 1593983 (14.79%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_048h_3_1.fastq.gz mlig_regen_reg_048h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 9486875 Surviving: 7981331 (84.13%) Dropped: 1505544 (15.87%)
-TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_000h_3_2.fastq.gz mlig_regen_reg_000h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_000h_3_2.fastq.gz mlig_regen_reg_000h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -873,7 +573,32 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 13609735 Surviving: 11644434 (85.56%) Dropped: 1965301 (14.44%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_012h_3_2.fastq.gz mlig_regen_control_012h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_048h_3_1.fastq.gz mlig_regen_reg_048h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 9486875 Surviving: 7981331 (84.13%) Dropped: 1505544 (15.87%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_012h_3_2.fastq.gz mlig_regen_control_012h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -898,7 +623,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 13195633 Surviving: 11045414 (83.71%) Dropped: 2150219 (16.29%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_012h_3_1.fastq.gz mlig_regen_control_012h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_012h_3_1.fastq.gz mlig_regen_control_012h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -923,7 +648,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 13855844 Surviving: 11709867 (84.51%) Dropped: 2145977 (15.49%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_000h_3_2.fastq.gz mlig_regen_control_000h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_000h_3_2.fastq.gz mlig_regen_control_000h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -948,32 +673,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 12955657 Surviving: 10824790 (83.55%) Dropped: 2130867 (16.45%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_024h_3_1.fastq.gz mlig_regen_control_024h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 12686988 Surviving: 10741828 (84.67%) Dropped: 1945160 (15.33%)
-TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_048h_2_1.fastq.gz mlig_regen_reg_048h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_048h_2_1.fastq.gz mlig_regen_reg_048h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -998,7 +698,32 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 11873392 Surviving: 10332601 (87.02%) Dropped: 1540791 (12.98%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_096h_1_1.fastq.gz mlig_regen_reg_096h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_024h_3_1.fastq.gz mlig_regen_control_024h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 12686988 Surviving: 10741828 (84.67%) Dropped: 1945160 (15.33%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_096h_1_1.fastq.gz mlig_regen_reg_096h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1023,7 +748,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 12583235 Surviving: 10987764 (87.32%) Dropped: 1595471 (12.68%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_024h_2_1.fastq.gz mlig_regen_control_024h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_024h_2_1.fastq.gz mlig_regen_control_024h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1048,7 +773,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 11951359 Surviving: 10379828 (86.85%) Dropped: 1571531 (13.15%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_168h_1_1.fastq.gz mlig_regen_reg_168h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_168h_1_1.fastq.gz mlig_regen_reg_168h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1073,7 +798,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 11677723 Surviving: 10044497 (86.01%) Dropped: 1633226 (13.99%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_120h_2_1.fastq.gz mlig_regen_reg_120h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_120h_2_1.fastq.gz mlig_regen_reg_120h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1098,7 +823,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 10983048 Surviving: 9740478 (88.69%) Dropped: 1242570 (11.31%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_120h_1_1.fastq.gz mlig_regen_control_120h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_120h_1_1.fastq.gz mlig_regen_control_120h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1123,32 +848,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 10976193 Surviving: 9543094 (86.94%) Dropped: 1433099 (13.06%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_072h_1_1.fastq.gz mlig_regen_reg_072h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 11498385 Surviving: 9984986 (86.84%) Dropped: 1513399 (13.16%)
-TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_072h_3_2.fastq.gz mlig_regen_reg_072h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_072h_3_2.fastq.gz mlig_regen_reg_072h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1173,7 +873,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 11379546 Surviving: 9593278 (84.30%) Dropped: 1786268 (15.70%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_024h_3_2.fastq.gz mlig_regen_reg_024h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_072h_1_1.fastq.gz mlig_regen_reg_072h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1196,9 +896,9 @@ Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
 Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 14487168 Surviving: 12435476 (85.84%) Dropped: 2051692 (14.16%)
+Input Reads: 11498385 Surviving: 9984986 (86.84%) Dropped: 1513399 (13.16%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_000h_3_1.fastq.gz mlig_regen_reg_000h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_000h_3_1.fastq.gz mlig_regen_reg_000h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1223,7 +923,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 13011095 Surviving: 11060352 (85.01%) Dropped: 1950743 (14.99%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_024h_1_1.fastq.gz mlig_regen_control_024h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_024h_3_2.fastq.gz mlig_regen_reg_024h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1246,9 +946,9 @@ Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
 Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 14241255 Surviving: 12207123 (85.72%) Dropped: 2034132 (14.28%)
+Input Reads: 14487168 Surviving: 12435476 (85.84%) Dropped: 2051692 (14.16%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_096h_3_1.fastq.gz mlig_regen_control_096h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_096h_3_1.fastq.gz mlig_regen_control_096h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1273,7 +973,32 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 11987375 Surviving: 10204136 (85.12%) Dropped: 1783239 (14.88%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_072h_2_1.fastq.gz mlig_regen_reg_072h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_024h_1_1.fastq.gz mlig_regen_control_024h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 14241255 Surviving: 12207123 (85.72%) Dropped: 2034132 (14.28%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_072h_2_1.fastq.gz mlig_regen_reg_072h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1298,7 +1023,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 11035451 Surviving: 9615407 (87.13%) Dropped: 1420044 (12.87%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_000h_2_1.fastq.gz mlig_regen_reg_000h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_000h_2_1.fastq.gz mlig_regen_reg_000h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1323,7 +1048,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 11556113 Surviving: 9945750 (86.06%) Dropped: 1610363 (13.94%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_000h_3_1.fastq.gz mlig_regen_control_000h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_000h_3_1.fastq.gz mlig_regen_control_000h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1348,7 +1073,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 13683617 Surviving: 11544296 (84.37%) Dropped: 2139321 (15.63%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_168h_3_1.fastq.gz mlig_regen_reg_168h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_168h_3_1.fastq.gz mlig_regen_reg_168h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1373,7 +1098,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 13420512 Surviving: 11753901 (87.58%) Dropped: 1666611 (12.42%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_072h_1_1.fastq.gz mlig_regen_control_072h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_072h_1_1.fastq.gz mlig_regen_control_072h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1398,7 +1123,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 13858955 Surviving: 12034956 (86.84%) Dropped: 1823999 (13.16%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_048h_1_1.fastq.gz mlig_regen_reg_048h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_048h_1_1.fastq.gz mlig_regen_reg_048h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1423,32 +1148,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 14768989 Surviving: 12807980 (86.72%) Dropped: 1961009 (13.28%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_096h_2_1.fastq.gz mlig_regen_reg_096h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 12931662 Surviving: 11574554 (89.51%) Dropped: 1357108 (10.49%)
-TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_048h_3_2.fastq.gz mlig_regen_reg_048h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_048h_3_2.fastq.gz mlig_regen_reg_048h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1473,7 +1173,32 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 9958177 Surviving: 8452548 (84.88%) Dropped: 1505629 (15.12%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_024h_3_1.fastq.gz mlig_regen_reg_024h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_096h_2_1.fastq.gz mlig_regen_reg_096h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 12931662 Surviving: 11574554 (89.51%) Dropped: 1357108 (10.49%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_024h_3_1.fastq.gz mlig_regen_reg_024h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1498,7 +1223,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 13703849 Surviving: 11659943 (85.09%) Dropped: 2043906 (14.91%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_096h_1_1.fastq.gz mlig_regen_control_096h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_096h_1_1.fastq.gz mlig_regen_control_096h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1523,7 +1248,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 12446825 Surviving: 10917561 (87.71%) Dropped: 1529264 (12.29%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_120h_3_1.fastq.gz mlig_regen_control_120h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_120h_3_1.fastq.gz mlig_regen_control_120h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1548,32 +1273,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 12004662 Surviving: 10362511 (86.32%) Dropped: 1642151 (13.68%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_reg_024h_2_1.fastq.gz mlig_regen_reg_024h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 11921238 Surviving: 10261017 (86.07%) Dropped: 1660221 (13.93%)
-TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_168h_3_1.fastq.gz mlig_regen_control_168h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_168h_3_1.fastq.gz mlig_regen_control_168h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1598,7 +1298,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 10440562 Surviving: 9077559 (86.95%) Dropped: 1363003 (13.05%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_120h_2_1.fastq.gz mlig_regen_control_120h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_reg_024h_2_1.fastq.gz mlig_regen_reg_024h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1621,9 +1321,9 @@ Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
 Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
 Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 16363385 Surviving: 13951887 (85.26%) Dropped: 2411498 (14.74%)
+Input Reads: 11921238 Surviving: 10261017 (86.07%) Dropped: 1660221 (13.93%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_048h_1_1.fastq.gz mlig_regen_control_048h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_048h_1_1.fastq.gz mlig_regen_control_048h_1_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1648,7 +1348,32 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 10865842 Surviving: 9571481 (88.09%) Dropped: 1294361 (11.91%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_072h_3_1.fastq.gz mlig_regen_control_072h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_120h_2_1.fastq.gz mlig_regen_control_120h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 16363385 Surviving: 13951887 (85.26%) Dropped: 2411498 (14.74%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_072h_3_1.fastq.gz mlig_regen_control_072h_3_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1673,32 +1398,7 @@ Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 11711316 Surviving: 9893971 (84.48%) Dropped: 1817345 (15.52%)
 TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_048h_3_2.fastq.gz mlig_regen_control_048h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
-Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
-Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
-Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
-Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
-Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
-Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
-Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
-ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Reads: 10803425 Surviving: 9218713 (85.33%) Dropped: 1584712 (14.67%)
-TrimmomaticSE: Completed successfully
-TrimmomaticSE: Started with arguments: -threads 1 -phred33 /EBS/mlig_regen_control_048h_2_1.fastq.gz mlig_regen_control_048h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/EBS/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_048h_2_1.fastq.gz mlig_regen_control_048h_2_1.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
 Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
@@ -1722,4 +1422,29 @@ Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
 Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Input Reads: 14123720 Surviving: 12222043 (86.54%) Dropped: 1901677 (13.46%)
+TrimmomaticSE: Completed successfully
+TrimmomaticSE: Started with arguments: -threads 1 -phred33 /mlig_raw/mlig_regen_control_048h_3_2.fastq.gz mlig_regen_control_048h_3_2.trimmed.fastq.gz LEADING:30 TRAILING:30 MINLEN:40 ILLUMINACLIP:/mlig_raw/software/Trimmomatic-0.32/adapters/adapters.fa:2:30:12:1:false TOPHRED33
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 17 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 10803425 Surviving: 9218713 (85.33%) Dropped: 1584712 (14.67%)
 TrimmomaticSE: Completed successfully
